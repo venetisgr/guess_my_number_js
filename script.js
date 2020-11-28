@@ -56,6 +56,7 @@ document.querySelector('.check').addEventListener('click', function () {
   }
 });
 
+//what happens when we press the reset button (again)
 document.querySelector('.again').addEventListener('click', function () {
   w_flag = 0;
   document.querySelector('body').style.backgroundColor = '#222';
